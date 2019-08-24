@@ -65,7 +65,7 @@
 1. Run provisioning scripts.
     
     ```sh
-    pipenv run python ./scripts/provision/main.py
+    pipenv run start
     ```
 
 ## References
