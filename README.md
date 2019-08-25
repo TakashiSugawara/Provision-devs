@@ -65,7 +65,7 @@
 1. Run provisioning scripts.
     
     ```sh
-    pipenv run start
+    poetry run scripts/provision/main.py
     ```
 
 ## References
