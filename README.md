@@ -15,13 +15,23 @@
 
 1. Setup MacOS (Mojave or later).
 
-   1. Install the latest major version of macOS with AppStore.  
+   1. Open the AppStore
+    
+        ```sh
+        open -a 'App Store'
+        ```
+
+        and sign-in (or sign-up) the AppStore by your apple account.
+
+   2. Open the latest version of macOS with AppStore
 
         ```sh
-        open https://apps.apple.com/jp/app/macos-mojave/id1398502828
+        open macappstores://apps.apple.com/jp/app/macos-mojave/id1398502828
         ```
+
+        and install it.
         
-   2. Update system.
+   3. Update system and restart it.
    
         ```sh
         sudo softwareupdate --install --recommended
@@ -30,11 +40,13 @@
 
 2. Setup command line developer tools (or Xcode).
 
-    1.  Install Xcode with AppStore.
+    1.  Open the latest version of Xcode with AppStore
 
         ```sh
-        open https://apps.apple.com/us/app/xcode/id497799835
+        open macappstores://apps.apple.com/us/app/xcode/id497799835
         ```
+
+        and install it.
 
     2.  Install command line developer tools.
 
@@ -62,13 +74,14 @@
 
 ## Provisioning
 
-1. Run provisioning scripts.
+1. Play the book.
     
     ```sh
-    pipenv run start
+    ansible-playbook -i localhost site.yml
     ```
 
 ## References
 
 + [Mac の開発環境構築を自動化する (2015 年初旬編)](https://t-wada.hatenablog.jp/entry/mac-provisioning-by-ansible)
 + [Mac OS Xの環境構築を自動化する(2016年度初旬編)](https://dev.classmethod.jp/server-side/ansible/automate-build-mac-osx-env-by-ansible/)
++ [mas-cliをAnsibleで管理する](https://qiita.com/yumiduka/items/9c095b9f98be96b8763c)

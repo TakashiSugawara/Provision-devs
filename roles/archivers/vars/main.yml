@@ -1,0 +1,7 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: keka }
+  - { name: makemkv }
+
+macosx_mas_packages: []

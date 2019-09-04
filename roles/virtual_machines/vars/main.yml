@@ -1,0 +1,6 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: gimp }
+
+macosx_mas_packages: []

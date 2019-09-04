@@ -1,0 +1,4 @@
+---
+- name: Tasks for MacOSX
+  import_tasks: macosx.yml
+  when: ansible_facts['os_family']|lower == 'macosx'

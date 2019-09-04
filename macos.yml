@@ -1,4 +1,0 @@
----
-- name: macos
-  hosts: localhost
-  connection: local

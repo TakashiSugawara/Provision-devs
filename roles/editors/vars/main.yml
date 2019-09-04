@@ -1,0 +1,7 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: macvim }
+  - { name: visual-studio-code }
+
+macosx_mas_packages: []

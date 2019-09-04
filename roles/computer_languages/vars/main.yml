@@ -1,0 +1,11 @@
+macosx_packages:
+  # - { name: go }
+  # - { name: node }
+  # - { name: perl }
+  - { name: python }
+  # - { name: ruby }
+  # - { name: rust }
+
+macosx_cask_packages: []
+
+macosx_mas_packages: []

@@ -1,0 +1,8 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: vagrant }
+  - { name: virtualbox }
+  - { name: vmware-fusion }
+
+macosx_mas_packages: []

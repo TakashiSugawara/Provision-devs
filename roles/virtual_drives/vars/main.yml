@@ -1,0 +1,7 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: google-drive-file-stream }
+  - { name: onedrive }
+
+macosx_mas_packages: []

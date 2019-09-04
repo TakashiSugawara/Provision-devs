@@ -1,0 +1,23 @@
+---
+- name: Homebrew
+  homebrew:
+    name: "{{ item.name }}"
+    install_options: "{{ item.install_options | default(omit) }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items:
+    - "{{ macosx_packages }}"
+
+- name: Homebrew cask
+  homebrew_cask:
+    name: "{{ item.name }}"
+    install_options: "{{ item.install_options | default(omit) }}"
+    state: "{{ item.state | default('present') }}"
+  with_items:
+    - "{{ macosx_cask_packages }}"
+
+- name: AppStore
+  script: '/bin/sh scripts/mas/main.sh {{ item.id }}'
+  with_items: '{{ macosx_mas_packages }}'
+  register: result
+  changed_when: result.rc == 1
+  failed_when: result.rc not in [0, 1]
