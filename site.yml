@@ -1,0 +1,25 @@
+---
+- name: provision devs
+  hosts: localhost
+  connection: local
+  roles: 
+    - role: package_manager
+    - role: archivers
+    - role: device_drivers
+    - role: virtual_drives
+    - role: extend_displays
+    - role: input_methods
+    - role: terminal_emulators
+    - role: remote_desktop_clients
+    - role: repository_clients
+    - role: computer_languages
+    - role: web_browsers
+    - role: os-level_virtualisations
+    - role: virtual_machines
+    - role: editors
+    - role: mobile_apps_ides
+    - role: ftp_clients
+    - role: painters
+    - role: multimedia_players
+    - role: office_suites
+    - role: games

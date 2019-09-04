@@ -1,0 +1,7 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: logitech-options }
+  - { name: konica-minolta-bizhub-c554-c364-109-driver }
+
+macosx_mas_packages: []

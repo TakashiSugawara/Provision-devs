@@ -1,0 +1,8 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: vlc }
+  # - { name: blu-ray-player }
+  - { name: blu-ray-player-pro }
+
+macosx_mas_packages: []

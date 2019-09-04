@@ -1,0 +1,6 @@
+macosx_packages: []
+
+macosx_cask_packages: []
+
+macosx_mas_packages:
+  - { name: Microsoft Remote Desktop 10, id: 1295203466 }

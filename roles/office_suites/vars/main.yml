@@ -1,0 +1,8 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: microsoft-excel }
+  - { name: microsoft-powerpoint }
+  - { name: microsoft-word }
+
+macosx_mas_packages: []

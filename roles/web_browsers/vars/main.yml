@@ -1,0 +1,9 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: firefox }
+  - { name: firefox-developer-edition }
+  - { name: google-chrome }
+  - { name: chromium }
+
+macosx_mas_packages: []

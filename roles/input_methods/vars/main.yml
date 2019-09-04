@@ -1,0 +1,7 @@
+macosx_packages: []
+
+macosx_cask_packages:
+  - { name: atok }
+  - { name: karabiner-elements }
+
+macosx_mas_packages: []

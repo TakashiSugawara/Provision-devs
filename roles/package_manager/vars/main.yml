@@ -1,0 +1,13 @@
+---
+homebrew_taps:
+  - { name: homebrew/code }
+  - { name: homebrew/cask }
+  - { name: homebrew/cask-drivers }
+  - { name: homebrew/cask-versions }
+
+macosx_packages:
+  - { name: mas }
+
+macosx_cask_packages: []
+
+macos_mas_packages: []
